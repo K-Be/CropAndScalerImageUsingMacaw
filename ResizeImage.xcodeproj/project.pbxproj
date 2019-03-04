@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10DBAB13031652D273163947 /* Pods_ResizeImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5DEFC5C3EA717AAE1FBEB8 /* Pods_ResizeImage.framework */; };
 		49B8F17A222CDBEC00FE6177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B8F179222CDBEC00FE6177 /* AppDelegate.swift */; };
 		49B8F17C222CDBEC00FE6177 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B8F17B222CDBEC00FE6177 /* ViewController.swift */; };
 		49B8F17F222CDBEC00FE6177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B8F17D222CDBEC00FE6177 /* Main.storyboard */; };
 		49B8F181222CDBEF00FE6177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B8F180222CDBEF00FE6177 /* Assets.xcassets */; };
 		49B8F184222CDBEF00FE6177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B8F182222CDBEF00FE6177 /* LaunchScreen.storyboard */; };
 		49B8F18F222CDBEF00FE6177 /* ResizeImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B8F18E222CDBEF00FE6177 /* ResizeImageTests.swift */; };
+		736CC0E8CD35A2EEE005EA0F /* Pods_ResizeImageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D6689EEED838DE74512006 /* Pods_ResizeImageTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35C4C040E78E93782F2D73B7 /* Pods-ResizeImageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResizeImageTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ResizeImageTests/Pods-ResizeImageTests.release.xcconfig"; sourceTree = "<group>"; };
 		49B8F176222CDBEC00FE6177 /* ResizeImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResizeImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B8F179222CDBEC00FE6177 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49B8F17B222CDBEC00FE6177 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +39,11 @@
 		49B8F18A222CDBEF00FE6177 /* ResizeImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResizeImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B8F18E222CDBEF00FE6177 /* ResizeImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeImageTests.swift; sourceTree = "<group>"; };
 		49B8F190222CDBEF00FE6177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D6689EEED838DE74512006 /* Pods_ResizeImageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ResizeImageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F5DEFC5C3EA717AAE1FBEB8 /* Pods_ResizeImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ResizeImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41B3D8A6A0DBBC1334660E8 /* Pods-ResizeImageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResizeImageTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ResizeImageTests/Pods-ResizeImageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABCA24D5C7A52A345B464023 /* Pods-ResizeImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResizeImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ResizeImage/Pods-ResizeImage.debug.xcconfig"; sourceTree = "<group>"; };
+		AE61F1A021AF586749749787 /* Pods-ResizeImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResizeImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-ResizeImage/Pods-ResizeImage.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10DBAB13031652D273163947 /* Pods_ResizeImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				736CC0E8CD35A2EEE005EA0F /* Pods_ResizeImageTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				49B8F178222CDBEC00FE6177 /* ResizeImage */,
 				49B8F18D222CDBEF00FE6177 /* ResizeImageTests */,
 				49B8F177222CDBEC00FE6177 /* Products */,
+				C5D34A49B6E7245BC2723557 /* Pods */,
+				A2B53227523D20980CBB724A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = ResizeImageTests;
 			sourceTree = "<group>";
 		};
+		A2B53227523D20980CBB724A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F5DEFC5C3EA717AAE1FBEB8 /* Pods_ResizeImage.framework */,
+				91D6689EEED838DE74512006 /* Pods_ResizeImageTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5D34A49B6E7245BC2723557 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABCA24D5C7A52A345B464023 /* Pods-ResizeImage.debug.xcconfig */,
+				AE61F1A021AF586749749787 /* Pods-ResizeImage.release.xcconfig */,
+				A41B3D8A6A0DBBC1334660E8 /* Pods-ResizeImageTests.debug.xcconfig */,
+				35C4C040E78E93782F2D73B7 /* Pods-ResizeImageTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49B8F193222CDBEF00FE6177 /* Build configuration list for PBXNativeTarget "ResizeImage" */;
 			buildPhases = (
+				C75AE381DC4C7038D56B3C95 /* [CP] Check Pods Manifest.lock */,
 				49B8F172222CDBEC00FE6177 /* Sources */,
 				49B8F173222CDBEC00FE6177 /* Frameworks */,
 				49B8F174222CDBEC00FE6177 /* Resources */,
+				21142E89B64129DB08A8862F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +154,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49B8F196222CDBEF00FE6177 /* Build configuration list for PBXNativeTarget "ResizeImageTests" */;
 			buildPhases = (
+				5C958EC8963F99DBFF3B01D7 /* [CP] Check Pods Manifest.lock */,
 				49B8F186222CDBEF00FE6177 /* Sources */,
 				49B8F187222CDBEF00FE6177 /* Frameworks */,
 				49B8F188222CDBEF00FE6177 /* Resources */,
@@ -191,6 +226,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21142E89B64129DB08A8862F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ResizeImage/Pods-ResizeImage-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Macaw/Macaw.framework",
+				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Macaw.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ResizeImage/Pods-ResizeImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C958EC8963F99DBFF3B01D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ResizeImageTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C75AE381DC4C7038D56B3C95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ResizeImage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		49B8F172222CDBEC00FE6177 /* Sources */ = {
@@ -358,15 +452,13 @@
 		};
 		49B8F194222CDBEF00FE6177 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABCA24D5C7A52A345B464023 /* Pods-ResizeImage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25WDLLAK34;
 				INFOPLIST_FILE = ResizeImage/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rav.ResizeImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -376,15 +468,13 @@
 		};
 		49B8F195222CDBEF00FE6177 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE61F1A021AF586749749787 /* Pods-ResizeImage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25WDLLAK34;
 				INFOPLIST_FILE = ResizeImage/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rav.ResizeImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -394,17 +484,14 @@
 		};
 		49B8F197222CDBEF00FE6177 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A41B3D8A6A0DBBC1334660E8 /* Pods-ResizeImageTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25WDLLAK34;
 				INFOPLIST_FILE = ResizeImageTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rav.ResizeImageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -415,17 +502,14 @@
 		};
 		49B8F198222CDBEF00FE6177 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35C4C040E78E93782F2D73B7 /* Pods-ResizeImageTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25WDLLAK34;
 				INFOPLIST_FILE = ResizeImageTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rav.ResizeImageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

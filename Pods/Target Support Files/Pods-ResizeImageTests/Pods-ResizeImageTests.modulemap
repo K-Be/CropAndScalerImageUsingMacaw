@@ -1,0 +1,6 @@
+framework module Pods_ResizeImageTests {
+  umbrella header "Pods-ResizeImageTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
