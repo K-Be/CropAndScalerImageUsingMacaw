@@ -46,10 +46,3 @@ xcuserdata
 # Carthage/Checkouts
 
 #Carthage/Build
-
-
-TBFiltersApp/TBFiltersApp.xcodeproj/xcuserdata/andrewromanov.xcuserdatad/xcschemes/TBFiltersApp.xcscheme
-
-#TBFiltersApp/Podfile.lock
-
-images/*
