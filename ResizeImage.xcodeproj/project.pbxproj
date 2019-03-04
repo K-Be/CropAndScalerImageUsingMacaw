@@ -14,6 +14,8 @@
 		49B8F181222CDBEF00FE6177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B8F180222CDBEF00FE6177 /* Assets.xcassets */; };
 		49B8F184222CDBEF00FE6177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B8F182222CDBEF00FE6177 /* LaunchScreen.storyboard */; };
 		49B8F18F222CDBEF00FE6177 /* ResizeImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B8F18E222CDBEF00FE6177 /* ResizeImageTests.swift */; };
+		49B8F19B222CDD1100FE6177 /* s1200.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 49B8F19A222CDD1100FE6177 /* s1200.jpeg */; };
+		49B8F19D222CDD5700FE6177 /* ClipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B8F19C222CDD5700FE6177 /* ClipView.swift */; };
 		736CC0E8CD35A2EEE005EA0F /* Pods_ResizeImageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D6689EEED838DE74512006 /* Pods_ResizeImageTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +41,8 @@
 		49B8F18A222CDBEF00FE6177 /* ResizeImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResizeImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B8F18E222CDBEF00FE6177 /* ResizeImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeImageTests.swift; sourceTree = "<group>"; };
 		49B8F190222CDBEF00FE6177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B8F19A222CDD1100FE6177 /* s1200.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s1200.jpeg; sourceTree = "<group>"; };
+		49B8F19C222CDD5700FE6177 /* ClipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipView.swift; sourceTree = "<group>"; };
 		91D6689EEED838DE74512006 /* Pods_ResizeImageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ResizeImageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F5DEFC5C3EA717AAE1FBEB8 /* Pods_ResizeImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ResizeImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41B3D8A6A0DBBC1334660E8 /* Pods-ResizeImageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResizeImageTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ResizeImageTests/Pods-ResizeImageTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -89,8 +93,10 @@
 		49B8F178222CDBEC00FE6177 /* ResizeImage */ = {
 			isa = PBXGroup;
 			children = (
+				49B8F199222CDD1100FE6177 /* resources */,
 				49B8F179222CDBEC00FE6177 /* AppDelegate.swift */,
 				49B8F17B222CDBEC00FE6177 /* ViewController.swift */,
+				49B8F19C222CDD5700FE6177 /* ClipView.swift */,
 				49B8F17D222CDBEC00FE6177 /* Main.storyboard */,
 				49B8F180222CDBEF00FE6177 /* Assets.xcassets */,
 				49B8F182222CDBEF00FE6177 /* LaunchScreen.storyboard */,
@@ -107,6 +113,14 @@
 			);
 			path = ResizeImageTests;
 			sourceTree = "<group>";
+		};
+		49B8F199222CDD1100FE6177 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				49B8F19A222CDD1100FE6177 /* s1200.jpeg */,
+			);
+			path = resources;
+			sourceTree = SOURCE_ROOT;
 		};
 		A2B53227523D20980CBB724A /* Frameworks */ = {
 			isa = PBXGroup;
@@ -212,6 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B8F19B222CDD1100FE6177 /* s1200.jpeg in Resources */,
 				49B8F184222CDBEF00FE6177 /* LaunchScreen.storyboard in Resources */,
 				49B8F181222CDBEF00FE6177 /* Assets.xcassets in Resources */,
 				49B8F17F222CDBEC00FE6177 /* Main.storyboard in Resources */,
@@ -293,6 +308,7 @@
 			files = (
 				49B8F17C222CDBEC00FE6177 /* ViewController.swift in Sources */,
 				49B8F17A222CDBEC00FE6177 /* AppDelegate.swift in Sources */,
+				49B8F19D222CDD5700FE6177 /* ClipView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,7 +474,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25WDLLAK34;
 				INFOPLIST_FILE = ResizeImage/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rav.ResizeImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -474,7 +493,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25WDLLAK34;
 				INFOPLIST_FILE = ResizeImage/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rav.ResizeImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -491,7 +513,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25WDLLAK34;
 				INFOPLIST_FILE = ResizeImageTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rav.ResizeImageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -509,7 +535,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25WDLLAK34;
 				INFOPLIST_FILE = ResizeImageTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rav.ResizeImageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
