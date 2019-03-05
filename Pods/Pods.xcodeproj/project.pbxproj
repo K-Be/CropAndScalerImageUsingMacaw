@@ -23,7 +23,7 @@
 		13C5064C7B25ED368CB0AD23161F275D /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D11B42CFF0CA3BEC29B0F51557F1FDE /* Stop.swift */; };
 		13DBBBD8EE03714D4F073C4CDA98AE6F /* Common_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BD32C18F13C96C504A7A0B6E0AA74B /* Common_iOS.swift */; };
 		18138AE715FAFE27E2B47EA1958F40E7 /* MCAShapeLayerLineCap_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77E8C55A03CFFD3CE890031D3D639EE /* MCAShapeLayerLineCap_macOS.swift */; };
-		19A6362782C82A1D1C2265C03199DA81 /* Pods-ResizeImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4F12FBA42E49B2E5FF7FFFF21E8630 /* Pods-ResizeImage-dummy.m */; };
+		19A6362782C82A1D1C2265C03199DA81 /* Pods-ResizeImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C7BFA69EC08A0741AD5AE5A9AECAF0 /* Pods-ResizeImage-dummy.m */; };
 		1C63A07C9667D49D030939D9064F4960 /* MDisplayLink_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31431E6D5610E7DC9955FA1A04830A89 /* MDisplayLink_macOS.swift */; };
 		1DAB82A4E8A06110943A6BF6C96CEB0F /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0FAEFA0084F1C35A01A1B5C103A291 /* SWXMLHash.swift */; };
 		1F608CFDA808BA172670CA0BB2949929 /* MView_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000DFBAED40893461498825DBD08C4F /* MView_iOS.swift */; };
@@ -65,6 +65,7 @@
 		609EF2289AD29378866035ABB8D49639 /* CGFloat+Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DD2E2A3E5BCE6CD8B670E8281C6807 /* CGFloat+Double.swift */; };
 		60EF31DC072DB974BBA4DEF8FAF5D108 /* Drawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247A0C3A99F2A8BB4D2DB3A8E0F9FBBC /* Drawable.swift */; };
 		632E11C0CF00E0669C6A5E1D86FC160C /* MBezierPath+Extension_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF1D91FB6F257448C26993DDFDC8DE /* MBezierPath+Extension_macOS.swift */; };
+		63FE68E02D8D2F11D66A710B3BC10A50 /* Pods-SVGWithFloatBorder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD436FB5FDECBDF801557769475FDE7 /* Pods-SVGWithFloatBorder-dummy.m */; };
 		660382F4368DC2BF94B81F95EB2B67DE /* BlendEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB8FABA3B789CF9ECECAFD6A086EFC5 /* BlendEffect.swift */; };
 		664E34B633971981B485087F962BA139 /* RoundRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47C965CC13381E245E1463B13D17637 /* RoundRect.swift */; };
 		68A04240E987CD0E044C335ABE177771 /* LocusInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD4D62E610F4FF14F0C858DEE7774E /* LocusInterpolation.swift */; };
@@ -75,10 +76,11 @@
 		6ADB341F375B419002379CBC3F37650D /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2716EA57F15112F21A03013157D58E17 /* Size.swift */; };
 		6C177D87CD79913E5F54174DBB35176A /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5015CC50979393D4181EBB5BB7A3139 /* Line.swift */; };
 		6C432AEC1BE17FB764DFD27445923CD5 /* MorphingGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3026712E080FD1642A29A01D3635E4 /* MorphingGenerator.swift */; };
+		6C7A61347DA4D38D7E1BCFDB42B537E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D053D5B8A65D212F6049328C28A1E403 /* Foundation.framework */; };
 		6D31C01C030C10A1DF19DD6A08C90BD1 /* Touchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8D93791EAB324B751ACE4D861EB42D /* Touchable.swift */; };
-		6EFC8DFDD105CE6D7BA1371672B9C443 /* Pods-ResizeImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF3B94079AEF6346CCA7D71141014BD /* Pods-ResizeImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EFC8DFDD105CE6D7BA1371672B9C443 /* Pods-ResizeImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 820939327A08099DD3B5C04F7D3CD308 /* Pods-ResizeImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FC9429B219146EADC549109C849ED35 /* shim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C959184FA0E3C4C7B033FBF395793 /* shim.swift */; };
-		6FCBF5DF3A9822B71A59BE02FAEE8638 /* Pods-ResizeImageTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3330B86A56E67516AD5F17FAD8E76464 /* Pods-ResizeImageTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FCBF5DF3A9822B71A59BE02FAEE8638 /* Pods-ResizeImageTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 287C650FCDAE284A5485C214DCB252DB /* Pods-ResizeImageTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		75F45CEDAC5BABBDDC6F568145744610 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3AF3363AC9EF967A002FAB11C4CECC /* SWXMLHash.framework */; };
 		77DEE06FC31D9EC829601A4995A0C178 /* Graphics_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFB1345A44CA8526F77CD5DD3866D74 /* Graphics_iOS.swift */; };
 		7EE9219516C20132162DEF5A7A284D22 /* SVGParserError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB432FD706BBCF557ECEFFF391F630C5 /* SVGParserError.swift */; };
@@ -91,7 +93,7 @@
 		86DAD3ADFFA1135E8B95AAD182BE00C6 /* OpacityAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742C19444BBFEE41F124FC9C3B119334 /* OpacityAnimation.swift */; };
 		883668F4F53C2C15320AB407702AF88E /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF437F984FD614BBA32F9345B4CF540A /* Variable.swift */; };
 		88ED932DEE239CEA5A81EA3454227400 /* ColorMatrixEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860C7D4DCE0E3DCEEA570F262209DF32 /* ColorMatrixEffect.swift */; };
-		89BA40AB98D44F688ACEF9F8F783AC9A /* Pods-ResizeImageTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F12C2E3CB518E11674552FB3EE7085 /* Pods-ResizeImageTests-dummy.m */; };
+		89BA40AB98D44F688ACEF9F8F783AC9A /* Pods-ResizeImageTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0576065E13E94D4E9CB258003F31C6 /* Pods-ResizeImageTests-dummy.m */; };
 		89D94AF58D2EFD79E0889DB659991BFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D053D5B8A65D212F6049328C28A1E403 /* Foundation.framework */; };
 		8ED4E73CF3A8F7F1915F4AAEA87853DC /* CombineAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DC71EAC2F7E7D43F481A03BD36E11D /* CombineAnimation.swift */; };
 		91A13E4AABE56385AA36ABCEDBDA95AA /* ShapeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E6864162A94D4BDCF18B18F0DBE360 /* ShapeAnimation.swift */; };
@@ -103,6 +105,7 @@
 		9DBE76A430798D4BFF2687EAAEA5974B /* Interpolable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4354F09B13178AC7C60ABE36067E11F2 /* Interpolable.swift */; };
 		9EA2A30982E15A799AA433E2CEEDB9E7 /* Stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B5A5927124E471D2C927CBD0A05113 /* Stroke.swift */; };
 		A2C07DBD4531EB3A8868BC5110762EF6 /* Easing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134CCB5EDEF9B7B11551277D2AABD126 /* Easing.swift */; };
+		A3BA78D7AEBB013E5F34ACE99377B92D /* Pods-SVGWithFloatBorderTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBAAB847EB5CAD7876FD0AF4F7105271 /* Pods-SVGWithFloatBorderTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A56D312F8369CF1E389305CF4AA66DDC /* TextRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F22A5A11CC325229E35D7BAF6B5440 /* TextRenderer.swift */; };
 		A88C902C051FC81AFEF475F9E95FE399 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D053D5B8A65D212F6049328C28A1E403 /* Foundation.framework */; };
 		AA06E2A549B5499444E5260896E204A6 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932087BAD4D2FCD308154E28AA7ED437 /* Group.swift */; };
@@ -126,6 +129,7 @@
 		C25449D7B566E4DD0138D0FD2F859AA9 /* TransformGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02DC60F8A16492D76420EAC108C305A /* TransformGenerator.swift */; };
 		C44A1C1616172DF33317EF8BC462FBE7 /* ShapeAnimationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF38712C06C6B6A22CA4B4FE3A290EC0 /* ShapeAnimationGenerator.swift */; };
 		C59F9A878633063D94B9E677B7DC1037 /* AnimationImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32F30C8B193B16DA9B5599B3A872627 /* AnimationImpl.swift */; };
+		C68FA95EF69CEF71DDDA1E086BD4FCEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D053D5B8A65D212F6049328C28A1E403 /* Foundation.framework */; };
 		C6B47E623911DED74452386D2E3EE462 /* Fill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2986DA506BB4206A8687F7FDFA3DED28 /* Fill.swift */; };
 		C963930F8FFB2B09619E58D3EFDB5A1A /* NSTimer+Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0573CE861C5B810161FD60691AE71908 /* NSTimer+Closure.swift */; };
 		C98F936F226E55EDCAC912E694BF5AE2 /* FuncBounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7003B7886F9F5696F6F726CCA2269700 /* FuncBounds.swift */; };
@@ -152,7 +156,9 @@
 		EA0883EB52E381F638C05E0C702707EA /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1869A8C986D6CAD9918599BB539DC9 /* Font.swift */; };
 		EA49FFA2F73BBEFA60374F5981F30A41 /* SVGSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25315308310F7C7A41C93E5394C403D /* SVGSerializer.swift */; };
 		EE299CACB516504D3831E486FBE1249D /* MCAMediaTimingFunctionName_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31F691F81B57618BDE5FA0B9B04C39 /* MCAMediaTimingFunctionName_macOS.swift */; };
+		EE8208C0033CAA67C2E1188EE0752862 /* Pods-SVGWithFloatBorder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6BBDA1D48475330DD1D2371B9AAFBB7 /* Pods-SVGWithFloatBorder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EEA303B14CCD750161CF9A44285ED4FE /* Baseline.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26CF0C12BC8C258E335C9C6FB696D6C /* Baseline.swift */; };
+		F0B3F45BC03771674C10F2D9E7D5CB7F /* Pods-SVGWithFloatBorderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE67011E8757D92DF71F5C5D0233533 /* Pods-SVGWithFloatBorderTests-dummy.m */; };
 		F2D4CB9AC12C7347881D9781014CB545 /* TransformAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1D477DCF41FDCCE23550F9726B992 /* TransformAnimation.swift */; };
 		F41CC5DFEA51CD100DC51362CB1541FE /* Graphics_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F01C3A5D95058A006D6BB9EC4197C /* Graphics_macOS.swift */; };
 		F677E4135C51C5FB9C3248B44562C498 /* MorphingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1928E7ECEF606BECBC62B4F5E84C6319 /* MorphingAnimation.swift */; };
@@ -164,6 +170,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3BAF015F2C98B28468AC5E2DA38AA4AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09C4BDFE0AAC1854082C60BAC9F57D34;
+			remoteInfo = "Pods-SVGWithFloatBorder";
+		};
+		4BE4613888B56A1FAC5516D7AC50B9A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF2228EEFFE896F29569F4117E60CB61;
+			remoteInfo = SWXMLHash;
+		};
 		4DF083C694E08A46E7FC066EA1D92191 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -192,47 +212,64 @@
 			remoteGlobalIDString = 60FD22D91AF97687505CC4E273396870;
 			remoteInfo = Macaw;
 		};
+		DA34BF42E6616F5D57B85134AAC1013E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60FD22D91AF97687505CC4E273396870;
+			remoteInfo = Macaw;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0000DFBAED40893461498825DBD08C4F /* MView_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MView_iOS.swift; path = Source/platform/iOS/MView_iOS.swift; sourceTree = "<group>"; };
 		00871D2A56D182EB7163554D106C5CEE /* TouchEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TouchEvent.swift; path = Source/events/TouchEvent.swift; sourceTree = "<group>"; };
 		00F1D477DCF41FDCCE23550F9726B992 /* TransformAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformAnimation.swift; path = Source/animation/types/TransformAnimation.swift; sourceTree = "<group>"; };
+		03B284ED955AAEA0E06800EDF2DC9624 /* Pods_SVGWithFloatBorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SVGWithFloatBorder.framework; path = "Pods-SVGWithFloatBorder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F567791773C7167BC7B0A065128376 /* Pods-ResizeImage-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ResizeImage-frameworks.sh"; sourceTree = "<group>"; };
 		0573CE861C5B810161FD60691AE71908 /* NSTimer+Closure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTimer+Closure.swift"; path = "Source/thirdparty/NSTimer+Closure.swift"; sourceTree = "<group>"; };
 		066D84123999C228D8D0BE5A7943D8BC /* AspectRatio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AspectRatio.swift; path = Source/model/draw/AspectRatio.swift; sourceTree = "<group>"; };
 		08720D613B4C92131781F0E4FB7C8E73 /* MoveTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoveTo.swift; path = Source/model/geom2d/MoveTo.swift; sourceTree = "<group>"; };
+		090728EF0ED1EF496D3079FF91B5CE56 /* Pods-SVGWithFloatBorderTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SVGWithFloatBorderTests.modulemap"; sourceTree = "<group>"; };
 		09995C4A938EF4206F863BF94AFBEFF4 /* Macaw-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Macaw-prefix.pch"; sourceTree = "<group>"; };
 		0A0FAEFA0084F1C35A01A1B5C103A291 /* SWXMLHash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWXMLHash.swift; path = Source/SWXMLHash.swift; sourceTree = "<group>"; };
+		0CA205B4113DC230C77686EF0F58A9F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FD64E9C5C2968913C40ED49FC15C82B /* PinchEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinchEvent.swift; path = Source/events/PinchEvent.swift; sourceTree = "<group>"; };
+		1245487F814279D58B06C00EB1267454 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		134CCB5EDEF9B7B11551277D2AABD126 /* Easing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Easing.swift; path = Source/animation/Easing.swift; sourceTree = "<group>"; };
-		1473EFF5B8B272D5406DCAA4D61AA7C5 /* Pods-ResizeImageTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ResizeImageTests-resources.sh"; sourceTree = "<group>"; };
+		15BB22C1CB0AC067A0C344227B89B627 /* Pods-SVGWithFloatBorder-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SVGWithFloatBorder-resources.sh"; sourceTree = "<group>"; };
 		184D63CA917F159CD167B3375204DD8B /* Macaw.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Macaw.modulemap; sourceTree = "<group>"; };
 		1928E7ECEF606BECBC62B4F5E84C6319 /* MorphingAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MorphingAnimation.swift; path = Source/animation/types/MorphingAnimation.swift; sourceTree = "<group>"; };
 		1ABF0D3DC2A24D9E318E9B564CF11626 /* OpacityGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpacityGenerator.swift; path = Source/animation/types/animation_generators/OpacityGenerator.swift; sourceTree = "<group>"; };
+		1B2FF71A72860AC5D2E849A5919B3945 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B3AF3363AC9EF967A002FAB11C4CECC /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWXMLHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B3BB2322546B6A9F05F0F105E644C57 /* Effect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Effect.swift; path = Source/model/draw/Effect.swift; sourceTree = "<group>"; };
+		1DD436FB5FDECBDF801557769475FDE7 /* Pods-SVGWithFloatBorder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SVGWithFloatBorder-dummy.m"; sourceTree = "<group>"; };
 		1E8E8D3107825DBF0461B4AC2984C7F0 /* PathBounds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathBounds.swift; path = Source/animation/layer_animation/PathBounds.swift; sourceTree = "<group>"; };
 		211A02ED4546CFA789D0C684EFCB99E8 /* OffsetEffect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OffsetEffect.swift; path = Source/model/draw/OffsetEffect.swift; sourceTree = "<group>"; };
-		21C8055E031B5FCC03718676BA43AA1E /* Pods_ResizeImageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ResizeImageTests.framework; path = "Pods-ResizeImageTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		247A0C3A99F2A8BB4D2DB3A8E0F9FBBC /* Drawable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Drawable.swift; path = Source/model/draw/Drawable.swift; sourceTree = "<group>"; };
 		25386F47A84691E469D984F74D84CBCA /* Locus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Locus.swift; path = Source/model/geom2d/Locus.swift; sourceTree = "<group>"; };
-		256C9263C2BDE7CF027E342AE2151867 /* Pods-ResizeImageTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ResizeImageTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		253BE4ADC018C021F173E24D077A567E /* Pods_SVGWithFloatBorderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SVGWithFloatBorderTests.framework; path = "Pods-SVGWithFloatBorderTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25E6864162A94D4BDCF18B18F0DBE360 /* ShapeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeAnimation.swift; path = Source/animation/types/ShapeAnimation.swift; sourceTree = "<group>"; };
 		2716EA57F15112F21A03013157D58E17 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Source/model/geom2d/Size.swift; sourceTree = "<group>"; };
 		27BD32C18F13C96C504A7A0B6E0AA74B /* Common_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Common_iOS.swift; path = Source/platform/iOS/Common_iOS.swift; sourceTree = "<group>"; };
+		27D834295B18571F204EBE2E1F956BBF /* Pods-ResizeImage-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ResizeImage-resources.sh"; sourceTree = "<group>"; };
 		2849A117204E4193C8BA717E1518945B /* RenderUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RenderUtils.swift; path = Source/render/RenderUtils.swift; sourceTree = "<group>"; };
+		287C650FCDAE284A5485C214DCB252DB /* Pods-ResizeImageTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ResizeImageTests-umbrella.h"; sourceTree = "<group>"; };
 		2986DA506BB4206A8687F7FDFA3DED28 /* Fill.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fill.swift; path = Source/model/draw/Fill.swift; sourceTree = "<group>"; };
 		2A3026712E080FD1642A29A01D3635E4 /* MorphingGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MorphingGenerator.swift; path = Source/animation/types/animation_generators/MorphingGenerator.swift; sourceTree = "<group>"; };
 		2C5F01C3A5D95058A006D6BB9EC4197C /* Graphics_macOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Graphics_macOS.swift; path = Source/platform/macOS/Graphics_macOS.swift; sourceTree = "<group>"; };
 		2E744F6961C939B9CB3B2737D613D3CB /* Align.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Source/model/draw/Align.swift; sourceTree = "<group>"; };
-		2F71919D048014214D7515B35A0EBC18 /* Pods-ResizeImage-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ResizeImage-resources.sh"; sourceTree = "<group>"; };
+		2F14E288DA5933A7FF05D4605D841B5E /* Pods-SVGWithFloatBorder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SVGWithFloatBorder.release.xcconfig"; sourceTree = "<group>"; };
 		2F801E3B5A056AE7C02649C3F11C3E05 /* Disposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Disposable.swift; path = Source/bindings/Disposable.swift; sourceTree = "<group>"; };
 		3022071E3ED8C999B148A9BC7251836C /* LineJoin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineJoin.swift; path = Source/model/draw/LineJoin.swift; sourceTree = "<group>"; };
 		31431E6D5610E7DC9955FA1A04830A89 /* MDisplayLink_macOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MDisplayLink_macOS.swift; path = Source/platform/macOS/MDisplayLink_macOS.swift; sourceTree = "<group>"; };
-		3330B86A56E67516AD5F17FAD8E76464 /* Pods-ResizeImageTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ResizeImageTests-umbrella.h"; sourceTree = "<group>"; };
+		3163967F15D64031A1A189520BF78582 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33E5AE49EA531DAB02F9E98C954463B4 /* LineCap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineCap.swift; path = Source/model/draw/LineCap.swift; sourceTree = "<group>"; };
 		37333625E6ECC40B38BCFB9F30B28BE2 /* Transform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transform.swift; path = Source/model/geom2d/Transform.swift; sourceTree = "<group>"; };
 		39EB155DDA62D13945F13D7B6D5DA585 /* PathSegmentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathSegmentType.swift; path = Source/model/geom2d/PathSegmentType.swift; sourceTree = "<group>"; };
+		3A4FD26EE4217D3CF839CD90C913A043 /* Pods-ResizeImageTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ResizeImageTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3D2AF4BE2E0B497789F9B0A9104721BF /* Pods-ResizeImage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ResizeImage-acknowledgements.plist"; sourceTree = "<group>"; };
 		405A4F42755FC7A4BE12D02B8D576F28 /* BoundsUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoundsUtils.swift; path = Source/utils/BoundsUtils.swift; sourceTree = "<group>"; };
 		4122697A27002603669678A2DDF4EABB /* CombinationAnimationGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombinationAnimationGenerator.swift; path = Source/animation/types/animation_generators/CombinationAnimationGenerator.swift; sourceTree = "<group>"; };
 		41F91BD7CA47794F6B36B9435771DF32 /* DoubleInterpolation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoubleInterpolation.swift; path = Source/animation/layer_animation/Extensions/DoubleInterpolation.swift; sourceTree = "<group>"; };
@@ -240,13 +277,15 @@
 		44635FC517EB1D9117968BC48DAB3A18 /* Circle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Circle.swift; path = Source/model/geom2d/Circle.swift; sourceTree = "<group>"; };
 		44DD2E2A3E5BCE6CD8B670E8281C6807 /* CGFloat+Double.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGFloat+Double.swift"; path = "Source/thirdparty/CGFloat+Double.swift"; sourceTree = "<group>"; };
 		461F6B891138DE7B060BFFB6CFA7D713 /* SceneUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SceneUtils.swift; path = Source/model/scene/SceneUtils.swift; sourceTree = "<group>"; };
+		46434C08F6F0FCE1A700332C5DF849D8 /* Pods-ResizeImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ResizeImage.release.xcconfig"; sourceTree = "<group>"; };
 		46553373B9D0858942AB97DDBFF34B0C /* SWXMLHash+TypeConversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SWXMLHash+TypeConversion.swift"; path = "Source/SWXMLHash+TypeConversion.swift"; sourceTree = "<group>"; };
 		48A62EB2367999E8250BE4D116561B4F /* Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animation.swift; path = Source/animation/Animation.swift; sourceTree = "<group>"; };
-		4A4F12FBA42E49B2E5FF7FFFF21E8630 /* Pods-ResizeImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ResizeImage-dummy.m"; sourceTree = "<group>"; };
 		4A913136A741C96D6783E68BE8E4CDC2 /* RotateEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotateEvent.swift; path = Source/events/RotateEvent.swift; sourceTree = "<group>"; };
 		4C0D892A50F67A7B4A842101AE0FD8DB /* PanEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanEvent.swift; path = Source/events/PanEvent.swift; sourceTree = "<group>"; };
 		4C0F90952011CFB7209ED247DAE5ADA2 /* MCAMediaTimingFillMode_macOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCAMediaTimingFillMode_macOS.swift; path = Source/MCAMediaTimingFillMode_macOS.swift; sourceTree = "<group>"; };
+		4C441F69E72EC53394638B0F92ACB692 /* Pods-ResizeImageTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ResizeImageTests-resources.sh"; sourceTree = "<group>"; };
 		4CAD55F2D7A3043A204A7C8928778FC8 /* SVGParserRegexHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGParserRegexHelper.swift; path = Source/svg/SVGParserRegexHelper.swift; sourceTree = "<group>"; };
+		4D00378D6E5D8CEDF5D79F2736F0BFCC /* Pods_ResizeImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ResizeImage.framework; path = "Pods-ResizeImage.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DFD4D62E610F4FF14F0C858DEE7774E /* LocusInterpolation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocusInterpolation.swift; path = Source/animation/layer_animation/Extensions/LocusInterpolation.swift; sourceTree = "<group>"; };
 		4F71581A6D6B37E948F56DE6D5A6003B /* ContentsAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentsAnimation.swift; path = Source/animation/types/ContentsAnimation.swift; sourceTree = "<group>"; };
 		4FAEB63BC6113619BCF7296F408B54DF /* AnimationCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationCache.swift; path = Source/animation/types/animation_generators/Cache/AnimationCache.swift; sourceTree = "<group>"; };
@@ -258,7 +297,6 @@
 		55E283788552D2B20F444CD908B55867 /* MCAMediaTimingFillMode_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCAMediaTimingFillMode_iOS.swift; path = Source/MCAMediaTimingFillMode_iOS.swift; sourceTree = "<group>"; };
 		55E8B89435BE8207423BD460DCEB4D3F /* SVGView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGView.swift; path = Source/svg/SVGView.swift; sourceTree = "<group>"; };
 		5833C422BF3305FC840053F006B5785C /* SWXMLHash.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SWXMLHash.modulemap; sourceTree = "<group>"; };
-		589EB879BD8A873EA174D12113D6EA82 /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWXMLHash.framework; path = SWXMLHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		598879E440F3343A3C7827212079C051 /* Polygon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Polygon.swift; path = Source/model/geom2d/Polygon.swift; sourceTree = "<group>"; };
 		5A6476C7126470647FD21F2B8D47C333 /* SVGCanvas.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGCanvas.swift; path = Source/svg/SVGCanvas.swift; sourceTree = "<group>"; };
 		5B2C959184FA0E3C4C7B033FBF395793 /* shim.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = shim.swift; path = Source/shim.swift; sourceTree = "<group>"; };
@@ -269,41 +307,46 @@
 		62B5A5927124E471D2C927CBD0A05113 /* Stroke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stroke.swift; path = Source/model/draw/Stroke.swift; sourceTree = "<group>"; };
 		665B7655D6E3DF4B7C09DF890765AA02 /* ColorMatrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorMatrix.swift; path = Source/model/draw/ColorMatrix.swift; sourceTree = "<group>"; };
 		6771C30BCA82109F36F8DCAAFDC2D419 /* MDisplayLink_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MDisplayLink_iOS.swift; path = Source/platform/iOS/MDisplayLink_iOS.swift; sourceTree = "<group>"; };
-		67ECC8D34F965649508A6BA64F483E8A /* Pods-ResizeImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ResizeImage.debug.xcconfig"; sourceTree = "<group>"; };
 		684E9DC7913F4A21064556FA4AC2020B /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Source/model/scene/Image.swift; sourceTree = "<group>"; };
 		68AA0190E0E4CD86A135CFC72BDC7ACA /* MCAShapeLayerLineCap_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCAShapeLayerLineCap_iOS.swift; path = Source/MCAShapeLayerLineCap_iOS.swift; sourceTree = "<group>"; };
 		68AA7AD11421BB4EEAEF2E834DF38617 /* AnimationSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationSequence.swift; path = Source/animation/types/AnimationSequence.swift; sourceTree = "<group>"; };
 		69DFEF72ECB952C66004EA51600A703D /* CSSParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSSParser.swift; path = Source/svg/CSSParser.swift; sourceTree = "<group>"; };
+		69E5734D59F1D0728D71A9DC447739D0 /* Pods-ResizeImageTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ResizeImageTests.modulemap"; sourceTree = "<group>"; };
 		6A7CBB70D51908E8EA1D90503ECDDB32 /* CGMappings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGMappings.swift; path = Source/utils/CGMappings.swift; sourceTree = "<group>"; };
 		6AAF040409F546C966E0A9455C9F44F7 /* SVGParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGParser.swift; path = Source/svg/SVGParser.swift; sourceTree = "<group>"; };
 		6D5EFC3CAC8940CE30C875EA1DDFB3CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FFC61C9A95E2AE70C3299A472F82A23 /* MacawView+PDF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MacawView+PDF.swift"; path = "Source/export/MacawView+PDF.swift"; sourceTree = "<group>"; };
 		7003B7886F9F5696F6F726CCA2269700 /* FuncBounds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FuncBounds.swift; path = Source/animation/layer_animation/FuncBounds.swift; sourceTree = "<group>"; };
-		71F12C2E3CB518E11674552FB3EE7085 /* Pods-ResizeImageTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ResizeImageTests-dummy.m"; sourceTree = "<group>"; };
 		71F46F24F5BF3E931B0EF347A0CBFAB1 /* Common_macOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Common_macOS.swift; path = Source/platform/macOS/Common_macOS.swift; sourceTree = "<group>"; };
 		728E336BFA8EAFECF808E9A31F6C1C0F /* Ellipse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ellipse.swift; path = Source/model/geom2d/Ellipse.swift; sourceTree = "<group>"; };
 		742C19444BBFEE41F124FC9C3B119334 /* OpacityAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpacityAnimation.swift; path = Source/animation/types/OpacityAnimation.swift; sourceTree = "<group>"; };
 		743E0E976D5836E3CE12E0952C8BA34C /* Macaw-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Macaw-umbrella.h"; sourceTree = "<group>"; };
 		75DC71EAC2F7E7D43F481A03BD36E11D /* CombineAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombineAnimation.swift; path = Source/animation/types/CombineAnimation.swift; sourceTree = "<group>"; };
-		7DA1849A04DB21129BB746B8C242EF78 /* Pods-ResizeImage-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ResizeImage-frameworks.sh"; sourceTree = "<group>"; };
+		786F9E0A0B7ABDB61788B84101C59E0A /* Pods-ResizeImage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ResizeImage-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7DBC3BF0F49A6DAADF0FE9F1482A2F0E /* GroupRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupRenderer.swift; path = Source/render/GroupRenderer.swift; sourceTree = "<group>"; };
 		7E1869A8C986D6CAD9918599BB539DC9 /* Font.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Font.swift; path = Source/model/draw/Font.swift; sourceTree = "<group>"; };
 		807A984A92C886F7970DA1EFCDD08AC5 /* ImageRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageRenderer.swift; path = Source/render/ImageRenderer.swift; sourceTree = "<group>"; };
 		80CCA986A7F10686FAE11D64A77609AF /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Event.swift; path = Source/events/Event.swift; sourceTree = "<group>"; };
 		80F22A5A11CC325229E35D7BAF6B5440 /* TextRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextRenderer.swift; path = Source/render/TextRenderer.swift; sourceTree = "<group>"; };
 		80FE92262F7E7D6EF803B169ADBBB44C /* UIImage2Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImage2Image.swift; path = Source/utils/UIImage2Image.swift; sourceTree = "<group>"; };
-		82A30F6A102AF3B39249C074CACF39C6 /* Pods-ResizeImage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ResizeImage-acknowledgements.markdown"; sourceTree = "<group>"; };
+		81569EB8500EE0A34DEF20A96ECEFA3C /* Pods-SVGWithFloatBorder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SVGWithFloatBorder.modulemap"; sourceTree = "<group>"; };
+		820939327A08099DD3B5C04F7D3CD308 /* Pods-ResizeImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ResizeImage-umbrella.h"; sourceTree = "<group>"; };
+		82C7BFA69EC08A0741AD5AE5A9AECAF0 /* Pods-ResizeImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ResizeImage-dummy.m"; sourceTree = "<group>"; };
+		82E25381F93D1A8C40E0113AD7EDDD1F /* Pods-SVGWithFloatBorder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SVGWithFloatBorder-acknowledgements.plist"; sourceTree = "<group>"; };
 		82F112EE034F5891832B8DBDA23C0E94 /* MDisplayLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MDisplayLink.swift; path = Source/platform/MDisplayLink.swift; sourceTree = "<group>"; };
-		851D24A759C2F9676C9DF3D45084EFBE /* Pods-ResizeImage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ResizeImage-acknowledgements.plist"; sourceTree = "<group>"; };
 		8542B63E5EF810FB20A54FAC3E7426AC /* SWXMLHash-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWXMLHash-prefix.pch"; sourceTree = "<group>"; };
 		860C7D4DCE0E3DCEEA570F262209DF32 /* ColorMatrixEffect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorMatrixEffect.swift; path = Source/model/draw/ColorMatrixEffect.swift; sourceTree = "<group>"; };
 		8737B31EFC3C475F2BEA50CDD3928CF2 /* LinearGradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinearGradient.swift; path = Source/model/draw/LinearGradient.swift; sourceTree = "<group>"; };
+		87397C801B7FCC8D19B1B849D6569535 /* Pods-SVGWithFloatBorderTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SVGWithFloatBorderTests-resources.sh"; sourceTree = "<group>"; };
+		889CA1A0197E437C540CBE4BBA4E6891 /* Pods-ResizeImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ResizeImage.debug.xcconfig"; sourceTree = "<group>"; };
 		892743A2D888FC8BEED7F8558F80D553 /* MacawView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MacawView.swift; path = Source/views/MacawView.swift; sourceTree = "<group>"; };
 		8CB738C3CA8400E165ED9A804E700DE9 /* AnimationProducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationProducer.swift; path = Source/animation/AnimationProducer.swift; sourceTree = "<group>"; };
 		8D11B42CFF0CA3BEC29B0F51557F1FDE /* Stop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stop.swift; path = Source/model/draw/Stop.swift; sourceTree = "<group>"; };
-		8D4F7181DD055C5DA2D13D663C7AF6FE /* Pods_ResizeImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ResizeImage.framework; path = "Pods-ResizeImage.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E0249F834FAF5E575FD207F879E3B2A /* AlphaEffect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlphaEffect.swift; path = Source/model/draw/AlphaEffect.swift; sourceTree = "<group>"; };
+		8E164C4E7AF9600C7DD7C97C247D0F09 /* Pods-SVGWithFloatBorder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SVGWithFloatBorder-frameworks.sh"; sourceTree = "<group>"; };
 		8E2446D7B3E997C511E309C160272E09 /* MCAShapeLayerLineJoin_macOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCAShapeLayerLineJoin_macOS.swift; path = Source/MCAShapeLayerLineJoin_macOS.swift; sourceTree = "<group>"; };
+		8EA8FF9D6EB818B2D1CCD16E0CBDEDE9 /* Pods-SVGWithFloatBorderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SVGWithFloatBorderTests.release.xcconfig"; sourceTree = "<group>"; };
+		904BC506E7BA4C14BDB8BA94AEB00D07 /* Pods-SVGWithFloatBorderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SVGWithFloatBorderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9135E87929E457037E17C598FC67A480 /* Path.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Path.swift; path = Source/model/geom2d/Path.swift; sourceTree = "<group>"; };
 		918D5C503F9F664FDB7EF8DEFD3DDAC4 /* RadialGradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadialGradient.swift; path = Source/model/draw/RadialGradient.swift; sourceTree = "<group>"; };
 		91D544CD9DF929A1212624C7B581128D /* Insets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Insets.swift; path = Source/model/geom2d/Insets.swift; sourceTree = "<group>"; };
@@ -312,18 +355,20 @@
 		948FFCCDA81147C568004A75BEF81E60 /* Text.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Text.swift; path = Source/model/scene/Text.swift; sourceTree = "<group>"; };
 		95288F705209A9800C6E6235E93D8201 /* ShapeInterpolation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeInterpolation.swift; path = Source/animation/layer_animation/Extensions/ShapeInterpolation.swift; sourceTree = "<group>"; };
 		958CC806006021714111DE13900AB1EE /* PathBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathBuilder.swift; path = Source/model/geom2d/PathBuilder.swift; sourceTree = "<group>"; };
+		9E97C1DD2777CA7D065597383E078BE0 /* Pods-ResizeImageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ResizeImageTests.release.xcconfig"; sourceTree = "<group>"; };
 		9EDB1065F3051BF08F37AE2BA047E3EF /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Source/model/geom2d/Point.swift; sourceTree = "<group>"; };
 		9FAF38EDDB19271076090CDBBF2C373F /* TransformInterpolation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformInterpolation.swift; path = Source/animation/layer_animation/Extensions/TransformInterpolation.swift; sourceTree = "<group>"; };
 		9FCDA844534E5058FD3D344D77455035 /* AnimatableVariable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableVariable.swift; path = Source/animation/AnimatableVariable.swift; sourceTree = "<group>"; };
+		A05E87BF6E90EA9386A31883D7A86183 /* Pods-ResizeImageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ResizeImageTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A0E0CF7D7ECA6214F29AAB7370997878 /* SVGNodeLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGNodeLayout.swift; path = Source/svg/SVGNodeLayout.swift; sourceTree = "<group>"; };
 		A2101588B9294D95F2E020EBEC5BC3AC /* SWXMLHash-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWXMLHash-dummy.m"; sourceTree = "<group>"; };
 		A25315308310F7C7A41C93E5394C403D /* SVGSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGSerializer.swift; path = Source/svg/SVGSerializer.swift; sourceTree = "<group>"; };
-		A58DEF586F833247186DDBCBE466CB2D /* Pods-ResizeImageTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ResizeImageTests-frameworks.sh"; sourceTree = "<group>"; };
 		A657193511564AF976E6D79EDF2E1E49 /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Source/model/scene/Node.swift; sourceTree = "<group>"; };
-		A69C6C59E22B11A3738D3E7893DE911B /* Pods-ResizeImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ResizeImage.modulemap"; sourceTree = "<group>"; };
 		A6CE198DF685916B56610AA273AD730B /* TapEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TapEvent.swift; path = Source/events/TapEvent.swift; sourceTree = "<group>"; };
 		A9416C291B880DE95608235371BAB571 /* PathFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathFunctions.swift; path = Source/animation/layer_animation/PathFunctions.swift; sourceTree = "<group>"; };
+		AA887ED653DB82E5ADF2D56F14DB6D06 /* Pods-SVGWithFloatBorder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SVGWithFloatBorder.debug.xcconfig"; sourceTree = "<group>"; };
 		AA8AF7802D12090790A34630589B3C0D /* ShapeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeRenderer.swift; path = Source/render/ShapeRenderer.swift; sourceTree = "<group>"; };
+		AAD46D44820A3C8A4C97D7E9134FB2C0 /* Pods-SVGWithFloatBorderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SVGWithFloatBorderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE630363058DC121867FD65E14322DCB /* FillInterpolation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillInterpolation.swift; path = Source/animation/layer_animation/Extensions/FillInterpolation.swift; sourceTree = "<group>"; };
 		AEA473951CF2CB45C897684C2A3A47A8 /* Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Color.swift; path = Source/model/draw/Color.swift; sourceTree = "<group>"; };
 		AEFB1345A44CA8526F77CD5DD3866D74 /* Graphics_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Graphics_iOS.swift; path = Source/platform/iOS/Graphics_iOS.swift; sourceTree = "<group>"; };
@@ -332,13 +377,14 @@
 		AF3FC1829FF237FE1C5AAA97B302CF0E /* MCAShapeLayerLineJoin_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MCAShapeLayerLineJoin_iOS.swift; path = Source/MCAShapeLayerLineJoin_iOS.swift; sourceTree = "<group>"; };
 		B02DC60F8A16492D76420EAC108C305A /* TransformGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformGenerator.swift; path = Source/animation/types/animation_generators/TransformGenerator.swift; sourceTree = "<group>"; };
 		B26E00D43BE06AF077B8FA34D2075223 /* DescriptionExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DescriptionExtensions.swift; path = Source/utils/DescriptionExtensions.swift; sourceTree = "<group>"; };
+		B4AADB7517C21DA218CDAA0DBB9CA040 /* Pods-SVGWithFloatBorderTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SVGWithFloatBorderTests-frameworks.sh"; sourceTree = "<group>"; };
 		B5015CC50979393D4181EBB5BB7A3139 /* Line.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Line.swift; path = Source/model/geom2d/Line.swift; sourceTree = "<group>"; };
-		B577FC85D036C82FE5F74B6E98D6F0CD /* Pods-ResizeImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ResizeImage.release.xcconfig"; sourceTree = "<group>"; };
-		B6B12E7746C84AFC185F0D3831892A97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6BBDA1D48475330DD1D2371B9AAFBB7 /* Pods-SVGWithFloatBorder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SVGWithFloatBorder-umbrella.h"; sourceTree = "<group>"; };
 		B770277F67F151B9B59EC0360F7FFBA8 /* GroupDisposable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupDisposable.swift; path = Source/bindings/GroupDisposable.swift; sourceTree = "<group>"; };
 		B92CEE4A064B313C26CACDD7FE0C7645 /* StrokeInterpolation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StrokeInterpolation.swift; path = Source/animation/layer_animation/Extensions/StrokeInterpolation.swift; sourceTree = "<group>"; };
 		B97571EF1446B799C53A71882AF0F026 /* Macaw.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Macaw.xcconfig; sourceTree = "<group>"; };
-		BAC9F7E752D43B2AD5D6E48CE09D7D96 /* Pods-ResizeImageTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ResizeImageTests.modulemap"; sourceTree = "<group>"; };
+		BD0576065E13E94D4E9CB258003F31C6 /* Pods-ResizeImageTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ResizeImageTests-dummy.m"; sourceTree = "<group>"; };
+		BF2588547136675351734C2E14D393AF /* Pods-SVGWithFloatBorderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SVGWithFloatBorderTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C1D4757AD44FDB5201504F629D4A668A /* Shape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shape.swift; path = Source/model/scene/Shape.swift; sourceTree = "<group>"; };
 		C23644944567FA30A1C056BBE06BB7D5 /* SWXMLHash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWXMLHash.xcconfig; sourceTree = "<group>"; };
 		C4D5236378BF0D92AD5E1CCEB9B2C466 /* TransformedLocus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformedLocus.swift; path = Source/model/geom2d/TransformedLocus.swift; sourceTree = "<group>"; };
@@ -346,38 +392,49 @@
 		C9A2C41D95DEC65D634FCE376C393EAA /* ShapeLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeLayer.swift; path = Source/views/ShapeLayer.swift; sourceTree = "<group>"; };
 		C9BACDBA912DEF50D33DEC03239FCC97 /* RenderContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RenderContext.swift; path = Source/render/RenderContext.swift; sourceTree = "<group>"; };
 		CA52FF28D19751EB6100695281DDAD2B /* Macaw-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Macaw-dummy.m"; sourceTree = "<group>"; };
+		CCE67011E8757D92DF71F5C5D0233533 /* Pods-SVGWithFloatBorderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SVGWithFloatBorderTests-dummy.m"; sourceTree = "<group>"; };
 		CD010E93743BCD4D1328511DED530EE5 /* SWXMLHash-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWXMLHash-umbrella.h"; sourceTree = "<group>"; };
-		CDD960B4B31D57D377440BE9167713D8 /* Pods-ResizeImageTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ResizeImageTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CF1441687BAFB602DF56B1885D4F8930 /* ContentLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentLayout.swift; path = Source/layout/ContentLayout.swift; sourceTree = "<group>"; };
 		D053D5B8A65D212F6049328C28A1E403 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1FD2B78FDFD3A664C9A1737BA81716D /* Pods_ResizeImageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ResizeImageTests.framework; path = "Pods-ResizeImageTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F17556B9F28B7E9B7B02AA7BFDDE71 /* Gradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gradient.swift; path = Source/model/draw/Gradient.swift; sourceTree = "<group>"; };
+		D3BDB2784E0E0A0FD450169B73DA3994 /* Pods-SVGWithFloatBorder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SVGWithFloatBorder-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D6BEF1A56D3C73F6F1E66091E26221CD /* Polyline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Polyline.swift; path = Source/model/geom2d/Polyline.swift; sourceTree = "<group>"; };
 		D73B8351BF10446D30A29C0633533C1C /* Arc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Arc.swift; path = Source/model/geom2d/Arc.swift; sourceTree = "<group>"; };
 		D9EF028C0C937E1E0D3460CFF371D87D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAFF24F372C8E625C33D76FD746A397A /* NodeHashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NodeHashable.swift; path = Source/animation/types/animation_generators/Cache/NodeHashable.swift; sourceTree = "<group>"; };
 		DD5379CA997B15A79730D174258844F5 /* AnimationUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationUtils.swift; path = Source/animation/AnimationUtils.swift; sourceTree = "<group>"; };
 		DE8D93791EAB324B751ACE4D861EB42D /* Touchable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Touchable.swift; path = Source/views/Touchable.swift; sourceTree = "<group>"; };
-		DF2498FE74548899DF30B15D9B2327CD /* Macaw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Macaw.framework; path = Macaw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF437F984FD614BBA32F9345B4CF540A /* Variable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Variable.swift; path = Source/bindings/Variable.swift; sourceTree = "<group>"; };
 		E5E5FF1C0326CA188C26FDEA46B01687 /* SVGConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGConstants.swift; path = Source/svg/SVGConstants.swift; sourceTree = "<group>"; };
+		E6E8D3147BE4C669AA25781E899402B1 /* Pods-ResizeImageTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ResizeImageTests-frameworks.sh"; sourceTree = "<group>"; };
 		E82AD9138D0E4FA0707E980740B9309E /* MView_macOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MView_macOS.swift; path = Source/platform/macOS/MView_macOS.swift; sourceTree = "<group>"; };
 		EA865639CBC79E23BBCEC352953F996F /* NodeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NodeRenderer.swift; path = Source/render/NodeRenderer.swift; sourceTree = "<group>"; };
+		EBAAB847EB5CAD7876FD0AF4F7105271 /* Pods-SVGWithFloatBorderTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SVGWithFloatBorderTests-umbrella.h"; sourceTree = "<group>"; };
 		EBD4A605DD6E7A8F2104F82B7330B130 /* Locus+ToPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Locus+ToPath.swift"; path = "Source/model/geom2d/Locus+ToPath.swift"; sourceTree = "<group>"; };
+		EF4759593692403E2739FFFCEF840B6E /* Macaw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Macaw.framework; path = Macaw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20C98FFE0314C658DB2BB48D095BB08 /* Pods-ResizeImageTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ResizeImageTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F26CF0C12BC8C258E335C9C6FB696D6C /* Baseline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Baseline.swift; path = Source/model/draw/Baseline.swift; sourceTree = "<group>"; };
 		F32F30C8B193B16DA9B5599B3A872627 /* AnimationImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationImpl.swift; path = Source/animation/AnimationImpl.swift; sourceTree = "<group>"; };
 		F47C965CC13381E245E1463B13D17637 /* RoundRect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoundRect.swift; path = Source/model/geom2d/RoundRect.swift; sourceTree = "<group>"; };
-		F5534B2579F5ED9200FC2309A9A7DE5B /* Pods-ResizeImageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ResizeImageTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F7BD2546A3C5CB55AD3AAE476930F164 /* PathSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathSegment.swift; path = Source/model/geom2d/PathSegment.swift; sourceTree = "<group>"; };
-		F833A10053E96F75935E46336FDA2BEB /* Pods-ResizeImageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ResizeImageTests.release.xcconfig"; sourceTree = "<group>"; };
-		FAF3B94079AEF6346CCA7D71141014BD /* Pods-ResizeImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ResizeImage-umbrella.h"; sourceTree = "<group>"; };
 		FB432FD706BBCF557ECEFFF391F630C5 /* SVGParserError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SVGParserError.swift; path = Source/svg/SVGParserError.swift; sourceTree = "<group>"; };
-		FC7E4E7EEAD5AE540F7FFB9F4E8DD7BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAFFC30182E29B4FB6D4CA5C2CDB567 /* Pods-ResizeImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ResizeImage.modulemap"; sourceTree = "<group>"; };
 		FDE893C581BBC020084A0BBC3193A663 /* AnimOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimOperators.swift; path = Source/animation/layer_animation/Extensions/AnimOperators.swift; sourceTree = "<group>"; };
+		FF547A8B48D8793A1AB9E12D580D20AC /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWXMLHash.framework; path = SWXMLHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8A5CDEED7AAD44672973D33ADC566F /* ContentsInterpolation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentsInterpolation.swift; path = Source/animation/layer_animation/Extensions/ContentsInterpolation.swift; sourceTree = "<group>"; };
 		FFB8FABA3B789CF9ECECAFD6A086EFC5 /* BlendEffect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlendEffect.swift; path = Source/model/draw/BlendEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0117E5614D13D98DF676F92BFE2507A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7A61347DA4D38D7E1BCFDB42B537E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		22BD08FDF56ED14FC2CF046A97D847A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -411,9 +468,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A86766982C41033312D60E38C494D244 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68FA95EF69CEF71DDDA1E086BD4FCEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E877C2D1DFDDF76FEA58C1A03F6375E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3E1B81BDC6537CA1DF466C9B9DC1ABD /* Pods-ResizeImage */,
+				FB14C02E5E14C200CB89CEA14668B999 /* Pods-ResizeImageTests */,
+				58E7681956E7B33CFD132FE83CC93C38 /* Pods-SVGWithFloatBorder */,
+				A5FD67C2FB3A03010C701302C98194B0 /* Pods-SVGWithFloatBorderTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		502AC5AF20F0E79360904778B3FA950A /* SWXMLHash */ = {
 			isa = PBXGroup;
 			children = (
@@ -426,24 +502,22 @@
 			path = SWXMLHash;
 			sourceTree = "<group>";
 		};
-		558E62229F350CED8B517DE2A1AF0087 /* Targets Support Files */ = {
+		58E7681956E7B33CFD132FE83CC93C38 /* Pods-SVGWithFloatBorder */ = {
 			isa = PBXGroup;
 			children = (
-				9B7B1ACDD798F3D2B127DDAF5352FD8E /* Pods-ResizeImage */,
-				FB77DF1CCDC57970CBB17186DBB24023 /* Pods-ResizeImageTests */,
+				1B2FF71A72860AC5D2E849A5919B3945 /* Info.plist */,
+				81569EB8500EE0A34DEF20A96ECEFA3C /* Pods-SVGWithFloatBorder.modulemap */,
+				D3BDB2784E0E0A0FD450169B73DA3994 /* Pods-SVGWithFloatBorder-acknowledgements.markdown */,
+				82E25381F93D1A8C40E0113AD7EDDD1F /* Pods-SVGWithFloatBorder-acknowledgements.plist */,
+				1DD436FB5FDECBDF801557769475FDE7 /* Pods-SVGWithFloatBorder-dummy.m */,
+				8E164C4E7AF9600C7DD7C97C247D0F09 /* Pods-SVGWithFloatBorder-frameworks.sh */,
+				15BB22C1CB0AC067A0C344227B89B627 /* Pods-SVGWithFloatBorder-resources.sh */,
+				B6BBDA1D48475330DD1D2371B9AAFBB7 /* Pods-SVGWithFloatBorder-umbrella.h */,
+				AA887ED653DB82E5ADF2D56F14DB6D06 /* Pods-SVGWithFloatBorder.debug.xcconfig */,
+				2F14E288DA5933A7FF05D4605D841B5E /* Pods-SVGWithFloatBorder.release.xcconfig */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		718839C6240765C76C1B48AD16BC6D5F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DF2498FE74548899DF30B15D9B2327CD /* Macaw.framework */,
-				8D4F7181DD055C5DA2D13D663C7AF6FE /* Pods_ResizeImage.framework */,
-				21C8055E031B5FCC03718676BA43AA1E /* Pods_ResizeImageTests.framework */,
-				589EB879BD8A873EA174D12113D6EA82 /* SWXMLHash.framework */,
-			);
-			name = Products;
+			name = "Pods-SVGWithFloatBorder";
+			path = "Target Support Files/Pods-SVGWithFloatBorder";
 			sourceTree = "<group>";
 		};
 		7A8797248051A54F948BAEAC68AA66D6 /* Frameworks */ = {
@@ -461,27 +535,22 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				7A8797248051A54F948BAEAC68AA66D6 /* Frameworks */,
 				FFB9F15EEBE0E24164C9A1DEE9C3D7F6 /* Pods */,
-				718839C6240765C76C1B48AD16BC6D5F /* Products */,
-				558E62229F350CED8B517DE2A1AF0087 /* Targets Support Files */,
+				8DC26A5A05953B998B6B02835D995C15 /* Products */,
+				1E877C2D1DFDDF76FEA58C1A03F6375E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9B7B1ACDD798F3D2B127DDAF5352FD8E /* Pods-ResizeImage */ = {
+		8DC26A5A05953B998B6B02835D995C15 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B6B12E7746C84AFC185F0D3831892A97 /* Info.plist */,
-				A69C6C59E22B11A3738D3E7893DE911B /* Pods-ResizeImage.modulemap */,
-				82A30F6A102AF3B39249C074CACF39C6 /* Pods-ResizeImage-acknowledgements.markdown */,
-				851D24A759C2F9676C9DF3D45084EFBE /* Pods-ResizeImage-acknowledgements.plist */,
-				4A4F12FBA42E49B2E5FF7FFFF21E8630 /* Pods-ResizeImage-dummy.m */,
-				7DA1849A04DB21129BB746B8C242EF78 /* Pods-ResizeImage-frameworks.sh */,
-				2F71919D048014214D7515B35A0EBC18 /* Pods-ResizeImage-resources.sh */,
-				FAF3B94079AEF6346CCA7D71141014BD /* Pods-ResizeImage-umbrella.h */,
-				67ECC8D34F965649508A6BA64F483E8A /* Pods-ResizeImage.debug.xcconfig */,
-				B577FC85D036C82FE5F74B6E98D6F0CD /* Pods-ResizeImage.release.xcconfig */,
+				EF4759593692403E2739FFFCEF840B6E /* Macaw.framework */,
+				4D00378D6E5D8CEDF5D79F2736F0BFCC /* Pods_ResizeImage.framework */,
+				D1FD2B78FDFD3A664C9A1737BA81716D /* Pods_ResizeImageTests.framework */,
+				03B284ED955AAEA0E06800EDF2DC9624 /* Pods_SVGWithFloatBorder.framework */,
+				253BE4ADC018C021F173E24D077A567E /* Pods_SVGWithFloatBorderTests.framework */,
+				FF547A8B48D8793A1AB9E12D580D20AC /* SWXMLHash.framework */,
 			);
-			name = "Pods-ResizeImage";
-			path = "Target Support Files/Pods-ResizeImage";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		A34D333140BD6777F1D54DA17E5DAC0E /* Support Files */ = {
@@ -496,6 +565,42 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Macaw";
+			sourceTree = "<group>";
+		};
+		A5FD67C2FB3A03010C701302C98194B0 /* Pods-SVGWithFloatBorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				3163967F15D64031A1A189520BF78582 /* Info.plist */,
+				090728EF0ED1EF496D3079FF91B5CE56 /* Pods-SVGWithFloatBorderTests.modulemap */,
+				904BC506E7BA4C14BDB8BA94AEB00D07 /* Pods-SVGWithFloatBorderTests-acknowledgements.markdown */,
+				BF2588547136675351734C2E14D393AF /* Pods-SVGWithFloatBorderTests-acknowledgements.plist */,
+				CCE67011E8757D92DF71F5C5D0233533 /* Pods-SVGWithFloatBorderTests-dummy.m */,
+				B4AADB7517C21DA218CDAA0DBB9CA040 /* Pods-SVGWithFloatBorderTests-frameworks.sh */,
+				87397C801B7FCC8D19B1B849D6569535 /* Pods-SVGWithFloatBorderTests-resources.sh */,
+				EBAAB847EB5CAD7876FD0AF4F7105271 /* Pods-SVGWithFloatBorderTests-umbrella.h */,
+				AAD46D44820A3C8A4C97D7E9134FB2C0 /* Pods-SVGWithFloatBorderTests.debug.xcconfig */,
+				8EA8FF9D6EB818B2D1CCD16E0CBDEDE9 /* Pods-SVGWithFloatBorderTests.release.xcconfig */,
+			);
+			name = "Pods-SVGWithFloatBorderTests";
+			path = "Target Support Files/Pods-SVGWithFloatBorderTests";
+			sourceTree = "<group>";
+		};
+		D3E1B81BDC6537CA1DF466C9B9DC1ABD /* Pods-ResizeImage */ = {
+			isa = PBXGroup;
+			children = (
+				1245487F814279D58B06C00EB1267454 /* Info.plist */,
+				FCAFFC30182E29B4FB6D4CA5C2CDB567 /* Pods-ResizeImage.modulemap */,
+				786F9E0A0B7ABDB61788B84101C59E0A /* Pods-ResizeImage-acknowledgements.markdown */,
+				3D2AF4BE2E0B497789F9B0A9104721BF /* Pods-ResizeImage-acknowledgements.plist */,
+				82C7BFA69EC08A0741AD5AE5A9AECAF0 /* Pods-ResizeImage-dummy.m */,
+				03F567791773C7167BC7B0A065128376 /* Pods-ResizeImage-frameworks.sh */,
+				27D834295B18571F204EBE2E1F956BBF /* Pods-ResizeImage-resources.sh */,
+				820939327A08099DD3B5C04F7D3CD308 /* Pods-ResizeImage-umbrella.h */,
+				889CA1A0197E437C540CBE4BBA4E6891 /* Pods-ResizeImage.debug.xcconfig */,
+				46434C08F6F0FCE1A700332C5DF849D8 /* Pods-ResizeImage.release.xcconfig */,
+			);
+			name = "Pods-ResizeImage";
+			path = "Target Support Files/Pods-ResizeImage";
 			sourceTree = "<group>";
 		};
 		DE5E46B350AC4AF4CDA1CCBEA601FA75 /* iOS */ = {
@@ -520,19 +625,19 @@
 			path = "../Target Support Files/SWXMLHash";
 			sourceTree = "<group>";
 		};
-		FB77DF1CCDC57970CBB17186DBB24023 /* Pods-ResizeImageTests */ = {
+		FB14C02E5E14C200CB89CEA14668B999 /* Pods-ResizeImageTests */ = {
 			isa = PBXGroup;
 			children = (
-				FC7E4E7EEAD5AE540F7FFB9F4E8DD7BA /* Info.plist */,
-				BAC9F7E752D43B2AD5D6E48CE09D7D96 /* Pods-ResizeImageTests.modulemap */,
-				CDD960B4B31D57D377440BE9167713D8 /* Pods-ResizeImageTests-acknowledgements.markdown */,
-				256C9263C2BDE7CF027E342AE2151867 /* Pods-ResizeImageTests-acknowledgements.plist */,
-				71F12C2E3CB518E11674552FB3EE7085 /* Pods-ResizeImageTests-dummy.m */,
-				A58DEF586F833247186DDBCBE466CB2D /* Pods-ResizeImageTests-frameworks.sh */,
-				1473EFF5B8B272D5406DCAA4D61AA7C5 /* Pods-ResizeImageTests-resources.sh */,
-				3330B86A56E67516AD5F17FAD8E76464 /* Pods-ResizeImageTests-umbrella.h */,
-				F5534B2579F5ED9200FC2309A9A7DE5B /* Pods-ResizeImageTests.debug.xcconfig */,
-				F833A10053E96F75935E46336FDA2BEB /* Pods-ResizeImageTests.release.xcconfig */,
+				0CA205B4113DC230C77686EF0F58A9F2 /* Info.plist */,
+				69E5734D59F1D0728D71A9DC447739D0 /* Pods-ResizeImageTests.modulemap */,
+				F20C98FFE0314C658DB2BB48D095BB08 /* Pods-ResizeImageTests-acknowledgements.markdown */,
+				3A4FD26EE4217D3CF839CD90C913A043 /* Pods-ResizeImageTests-acknowledgements.plist */,
+				BD0576065E13E94D4E9CB258003F31C6 /* Pods-ResizeImageTests-dummy.m */,
+				E6E8D3147BE4C669AA25781E899402B1 /* Pods-ResizeImageTests-frameworks.sh */,
+				4C441F69E72EC53394638B0F92ACB692 /* Pods-ResizeImageTests-resources.sh */,
+				287C650FCDAE284A5485C214DCB252DB /* Pods-ResizeImageTests-umbrella.h */,
+				A05E87BF6E90EA9386A31883D7A86183 /* Pods-ResizeImageTests.debug.xcconfig */,
+				9E97C1DD2777CA7D065597383E078BE0 /* Pods-ResizeImageTests.release.xcconfig */,
 			);
 			name = "Pods-ResizeImageTests";
 			path = "Target Support Files/Pods-ResizeImageTests";
@@ -697,6 +802,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		04EC2F996AB0F21754651C5A258A4875 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8208C0033CAA67C2E1188EE0752862 /* Pods-SVGWithFloatBorder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		69B74CBF674DB482F45986190420D917 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -710,6 +823,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				090B533887E2D50948157634F29F2749 /* Macaw-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F0CA7565E5211533457152E5680A27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BA78D7AEBB013E5F34ACE99377B92D /* Pods-SVGWithFloatBorderTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -748,7 +869,44 @@
 			);
 			name = "Pods-ResizeImage";
 			productName = "Pods-ResizeImage";
-			productReference = 8D4F7181DD055C5DA2D13D663C7AF6FE /* Pods_ResizeImage.framework */;
+			productReference = 4D00378D6E5D8CEDF5D79F2736F0BFCC /* Pods_ResizeImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		09C4BDFE0AAC1854082C60BAC9F57D34 /* Pods-SVGWithFloatBorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D7FFBEC44FA1DD8F307CCBC31CCA7A /* Build configuration list for PBXNativeTarget "Pods-SVGWithFloatBorder" */;
+			buildPhases = (
+				543CE38B510DFE9AB7DAC550B2933E2E /* Sources */,
+				0117E5614D13D98DF676F92BFE2507A9 /* Frameworks */,
+				04EC2F996AB0F21754651C5A258A4875 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C68437501D974E2795F56DAA160B2AC /* PBXTargetDependency */,
+				8020C975C85E63B2381194023FB975A3 /* PBXTargetDependency */,
+			);
+			name = "Pods-SVGWithFloatBorder";
+			productName = "Pods-SVGWithFloatBorder";
+			productReference = 03B284ED955AAEA0E06800EDF2DC9624 /* Pods_SVGWithFloatBorder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2374C8FF9DAE122D713FDF37B40EBB24 /* Pods-SVGWithFloatBorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34E46F7C2E811FA9FC5457CF7CA587DF /* Build configuration list for PBXNativeTarget "Pods-SVGWithFloatBorderTests" */;
+			buildPhases = (
+				8D0692EE4AD62BEAD31DF944D9AA48B5 /* Sources */,
+				A86766982C41033312D60E38C494D244 /* Frameworks */,
+				A5F0CA7565E5211533457152E5680A27 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE310F617B5ADCD87A9A539E227FFE9C /* PBXTargetDependency */,
+			);
+			name = "Pods-SVGWithFloatBorderTests";
+			productName = "Pods-SVGWithFloatBorderTests";
+			productReference = 253BE4ADC018C021F173E24D077A567E /* Pods_SVGWithFloatBorderTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		60FD22D91AF97687505CC4E273396870 /* Macaw */ = {
@@ -766,7 +924,7 @@
 			);
 			name = Macaw;
 			productName = Macaw;
-			productReference = DF2498FE74548899DF30B15D9B2327CD /* Macaw.framework */;
+			productReference = EF4759593692403E2739FFFCEF840B6E /* Macaw.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BF4ADF9C552573DDF2DABB8CF90EADF1 /* Pods-ResizeImageTests */ = {
@@ -784,7 +942,7 @@
 			);
 			name = "Pods-ResizeImageTests";
 			productName = "Pods-ResizeImageTests";
-			productReference = 21C8055E031B5FCC03718676BA43AA1E /* Pods_ResizeImageTests.framework */;
+			productReference = D1FD2B78FDFD3A664C9A1737BA81716D /* Pods_ResizeImageTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FF2228EEFFE896F29569F4117E60CB61 /* SWXMLHash */ = {
@@ -801,7 +959,7 @@
 			);
 			name = SWXMLHash;
 			productName = SWXMLHash;
-			productReference = 589EB879BD8A873EA174D12113D6EA82 /* SWXMLHash.framework */;
+			productReference = FF547A8B48D8793A1AB9E12D580D20AC /* SWXMLHash.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -821,13 +979,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 718839C6240765C76C1B48AD16BC6D5F /* Products */;
+			productRefGroup = 8DC26A5A05953B998B6B02835D995C15 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				60FD22D91AF97687505CC4E273396870 /* Macaw */,
 				0701F0D3107083D260980D779131F29D /* Pods-ResizeImage */,
 				BF4ADF9C552573DDF2DABB8CF90EADF1 /* Pods-ResizeImageTests */,
+				09C4BDFE0AAC1854082C60BAC9F57D34 /* Pods-SVGWithFloatBorder */,
+				2374C8FF9DAE122D713FDF37B40EBB24 /* Pods-SVGWithFloatBorderTests */,
 				FF2228EEFFE896F29569F4117E60CB61 /* SWXMLHash */,
 			);
 		};
@@ -842,6 +1002,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		543CE38B510DFE9AB7DAC550B2933E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FE68E02D8D2F11D66A710B3BC10A50 /* Pods-SVGWithFloatBorder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		66297D7952CBA8E77DA3FB6BF4EDE76F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -850,6 +1018,14 @@
 				D40A7444E8738CF8BF77FB086486DC85 /* SWXMLHash+TypeConversion.swift in Sources */,
 				6A6D604C6DCFA63AE517DE7951FB727F /* SWXMLHash-dummy.m in Sources */,
 				1DAB82A4E8A06110943A6BF6C96CEB0F /* SWXMLHash.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0692EE4AD62BEAD31DF944D9AA48B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B3F45BC03771674C10F2D9E7D5CB7F /* Pods-SVGWithFloatBorderTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1028,11 +1204,29 @@
 			target = 0701F0D3107083D260980D779131F29D /* Pods-ResizeImage */;
 			targetProxy = 4DF083C694E08A46E7FC066EA1D92191 /* PBXContainerItemProxy */;
 		};
+		7C68437501D974E2795F56DAA160B2AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Macaw;
+			target = 60FD22D91AF97687505CC4E273396870 /* Macaw */;
+			targetProxy = DA34BF42E6616F5D57B85134AAC1013E /* PBXContainerItemProxy */;
+		};
+		8020C975C85E63B2381194023FB975A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWXMLHash;
+			target = FF2228EEFFE896F29569F4117E60CB61 /* SWXMLHash */;
+			targetProxy = 4BE4613888B56A1FAC5516D7AC50B9A0 /* PBXContainerItemProxy */;
+		};
 		A0DA44D777ED7C944CD26BE992A6FE7D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SWXMLHash;
 			target = FF2228EEFFE896F29569F4117E60CB61 /* SWXMLHash */;
 			targetProxy = 53A67994035B4E48F6C232D49E598225 /* PBXContainerItemProxy */;
+		};
+		FE310F617B5ADCD87A9A539E227FFE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SVGWithFloatBorder";
+			target = 09C4BDFE0AAC1854082C60BAC9F57D34 /* Pods-SVGWithFloatBorder */;
+			targetProxy = 3BAF015F2C98B28468AC5E2DA38AA4AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1094,6 +1288,42 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		1851C4798D147A548F598EE6A6D382E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA887ED653DB82E5ADF2D56F14DB6D06 /* Pods-SVGWithFloatBorder.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SVGWithFloatBorder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SVGWithFloatBorder/Pods-SVGWithFloatBorder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		38DF7608E72FBE24C5153EFCDB5B52D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1158,6 +1388,111 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		6627E4AD28D062FC321B12EEE1066D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EA8FF9D6EB818B2D1CCD16E0CBDEDE9 /* Pods-SVGWithFloatBorderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SVGWithFloatBorderTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SVGWithFloatBorderTests/Pods-SVGWithFloatBorderTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		83461B23C4C22634686F132CBF80993E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD46D44820A3C8A4C97D7E9134FB2C0 /* Pods-SVGWithFloatBorderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SVGWithFloatBorderTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SVGWithFloatBorderTests/Pods-SVGWithFloatBorderTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87BF71D1E9400CE8A8C907FC71F6D135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F14E288DA5933A7FF05D4605D841B5E /* Pods-SVGWithFloatBorder.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SVGWithFloatBorder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SVGWithFloatBorder/Pods-SVGWithFloatBorder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1224,7 +1559,7 @@
 		};
 		9666230C5C3D286650931FB4FA7DE5FD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B577FC85D036C82FE5F74B6E98D6F0CD /* Pods-ResizeImage.release.xcconfig */;
+			baseConfigurationReference = 46434C08F6F0FCE1A700332C5DF849D8 /* Pods-ResizeImage.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1293,7 +1628,7 @@
 		};
 		BE9CEDCA8E3D8068559741C3E17D9029 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5534B2579F5ED9200FC2309A9A7DE5B /* Pods-ResizeImageTests.debug.xcconfig */;
+			baseConfigurationReference = A05E87BF6E90EA9386A31883D7A86183 /* Pods-ResizeImageTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1327,7 +1662,7 @@
 		};
 		D2ED481A4904C522069D604073CB1DD7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F833A10053E96F75935E46336FDA2BEB /* Pods-ResizeImageTests.release.xcconfig */;
+			baseConfigurationReference = 9E97C1DD2777CA7D065597383E078BE0 /* Pods-ResizeImageTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1362,7 +1697,7 @@
 		};
 		E921921290A3D37C5FB276A4D798FCF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67ECC8D34F965649508A6BA64F483E8A /* Pods-ResizeImage.debug.xcconfig */;
+			baseConfigurationReference = 889CA1A0197E437C540CBE4BBA4E6891 /* Pods-ResizeImage.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1450,6 +1785,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		34E46F7C2E811FA9FC5457CF7CA587DF /* Build configuration list for PBXNativeTarget "Pods-SVGWithFloatBorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83461B23C4C22634686F132CBF80993E /* Debug */,
+				6627E4AD28D062FC321B12EEE1066D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7B0BB3E14D16E452E7CF2D93D466B859 /* Build configuration list for PBXNativeTarget "Pods-ResizeImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1473,6 +1817,15 @@
 			buildConfigurations = (
 				38DF7608E72FBE24C5153EFCDB5B52D5 /* Debug */,
 				FC1768E7CFF6EBB3925604D15BB10BE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D7FFBEC44FA1DD8F307CCBC31CCA7A /* Build configuration list for PBXNativeTarget "Pods-SVGWithFloatBorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1851C4798D147A548F598EE6A6D382E1 /* Debug */,
+				87BF71D1E9400CE8A8C907FC71F6D135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

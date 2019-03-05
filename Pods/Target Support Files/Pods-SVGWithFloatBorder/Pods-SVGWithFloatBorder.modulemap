@@ -1,0 +1,6 @@
+framework module Pods_SVGWithFloatBorder {
+  umbrella header "Pods-SVGWithFloatBorder-umbrella.h"
+
+  export *
+  module * { export * }
+}

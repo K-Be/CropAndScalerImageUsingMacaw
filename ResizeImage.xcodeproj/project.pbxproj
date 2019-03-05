@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		10DBAB13031652D273163947 /* Pods_ResizeImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5DEFC5C3EA717AAE1FBEB8 /* Pods_ResizeImage.framework */; };
+		49B40655222E59E7005EB587 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B40654222E59E7005EB587 /* AppDelegate.swift */; };
+		49B40657222E59E7005EB587 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B40656222E59E7005EB587 /* ViewController.swift */; };
+		49B4065A222E59E7005EB587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B40658222E59E7005EB587 /* Main.storyboard */; };
+		49B4065C222E59E8005EB587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B4065B222E59E8005EB587 /* Assets.xcassets */; };
+		49B4065F222E59E8005EB587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B4065D222E59E8005EB587 /* LaunchScreen.storyboard */; };
+		49B4066A222E59E8005EB587 /* SVGWithFloatBorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B40669222E59E8005EB587 /* SVGWithFloatBorderTests.swift */; };
+		49B40679222E700F005EB587 /* h.svg in Resources */ = {isa = PBXBuildFile; fileRef = 49B40678222E700F005EB587 /* h.svg */; };
 		49B8F17A222CDBEC00FE6177 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B8F179222CDBEC00FE6177 /* AppDelegate.swift */; };
 		49B8F17C222CDBEC00FE6177 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B8F17B222CDBEC00FE6177 /* ViewController.swift */; };
 		49B8F17F222CDBEC00FE6177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B8F17D222CDBEC00FE6177 /* Main.storyboard */; };
@@ -16,10 +23,19 @@
 		49B8F18F222CDBEF00FE6177 /* ResizeImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B8F18E222CDBEF00FE6177 /* ResizeImageTests.swift */; };
 		49B8F19B222CDD1100FE6177 /* s1200.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 49B8F19A222CDD1100FE6177 /* s1200.jpeg */; };
 		49B8F19D222CDD5700FE6177 /* ClipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B8F19C222CDD5700FE6177 /* ClipView.swift */; };
+		4C82CB37A531DA5FCD1A4201 /* Pods_SVGWithFloatBorderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14204633DC964ACEA6097517 /* Pods_SVGWithFloatBorderTests.framework */; };
 		736CC0E8CD35A2EEE005EA0F /* Pods_ResizeImageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D6689EEED838DE74512006 /* Pods_ResizeImageTests.framework */; };
+		A2D44570E9986DE8CEE6DD2F /* Pods_SVGWithFloatBorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D18DAA8D8636E09B6B7A82C /* Pods_SVGWithFloatBorder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		49B40666222E59E8005EB587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49B8F16E222CDBEC00FE6177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49B40651222E59E7005EB587;
+			remoteInfo = SVGWithFloatBorder;
+		};
 		49B8F18B222CDBEF00FE6177 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 49B8F16E222CDBEC00FE6177 /* Project object */;
@@ -30,7 +46,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1308C62B950CAE0967AB0B8C /* Pods-SVGWithFloatBorder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGWithFloatBorder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SVGWithFloatBorder/Pods-SVGWithFloatBorder.debug.xcconfig"; sourceTree = "<group>"; };
+		14204633DC964ACEA6097517 /* Pods_SVGWithFloatBorderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SVGWithFloatBorderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C4C040E78E93782F2D73B7 /* Pods-ResizeImageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResizeImageTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ResizeImageTests/Pods-ResizeImageTests.release.xcconfig"; sourceTree = "<group>"; };
+		49B40652222E59E7005EB587 /* SVGWithFloatBorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVGWithFloatBorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B40654222E59E7005EB587 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49B40656222E59E7005EB587 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49B40659222E59E7005EB587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49B4065B222E59E8005EB587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49B4065E222E59E8005EB587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49B40660222E59E8005EB587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B40665222E59E8005EB587 /* SVGWithFloatBorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SVGWithFloatBorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B40669222E59E8005EB587 /* SVGWithFloatBorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGWithFloatBorderTests.swift; sourceTree = "<group>"; };
+		49B4066B222E59E8005EB587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B40678222E700F005EB587 /* h.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = h.svg; sourceTree = "<group>"; };
 		49B8F176222CDBEC00FE6177 /* ResizeImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResizeImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B8F179222CDBEC00FE6177 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49B8F17B222CDBEC00FE6177 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,14 +72,34 @@
 		49B8F190222CDBEF00FE6177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49B8F19A222CDD1100FE6177 /* s1200.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s1200.jpeg; sourceTree = "<group>"; };
 		49B8F19C222CDD5700FE6177 /* ClipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipView.swift; sourceTree = "<group>"; };
+		4D18DAA8D8636E09B6B7A82C /* Pods_SVGWithFloatBorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SVGWithFloatBorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		576ED2ECE684C89A07EB1EB3 /* Pods-SVGWithFloatBorderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGWithFloatBorderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SVGWithFloatBorderTests/Pods-SVGWithFloatBorderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66FE05D59E796F63E3330EF0 /* Pods-SVGWithFloatBorder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGWithFloatBorder.release.xcconfig"; path = "Pods/Target Support Files/Pods-SVGWithFloatBorder/Pods-SVGWithFloatBorder.release.xcconfig"; sourceTree = "<group>"; };
 		91D6689EEED838DE74512006 /* Pods_ResizeImageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ResizeImageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F5DEFC5C3EA717AAE1FBEB8 /* Pods_ResizeImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ResizeImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41B3D8A6A0DBBC1334660E8 /* Pods-ResizeImageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResizeImageTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ResizeImageTests/Pods-ResizeImageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8B93FFDCFE5145AF74BD28E /* Pods-SVGWithFloatBorderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGWithFloatBorderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SVGWithFloatBorderTests/Pods-SVGWithFloatBorderTests.release.xcconfig"; sourceTree = "<group>"; };
 		ABCA24D5C7A52A345B464023 /* Pods-ResizeImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResizeImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ResizeImage/Pods-ResizeImage.debug.xcconfig"; sourceTree = "<group>"; };
 		AE61F1A021AF586749749787 /* Pods-ResizeImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResizeImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-ResizeImage/Pods-ResizeImage.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		49B4064F222E59E7005EB587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D44570E9986DE8CEE6DD2F /* Pods_SVGWithFloatBorder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B40662222E59E8005EB587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C82CB37A531DA5FCD1A4201 /* Pods_SVGWithFloatBorderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49B8F173222CDBEC00FE6177 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -70,11 +119,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49B40653222E59E7005EB587 /* SVGWithFloatBorder */ = {
+			isa = PBXGroup;
+			children = (
+				49B40678222E700F005EB587 /* h.svg */,
+				49B40654222E59E7005EB587 /* AppDelegate.swift */,
+				49B40656222E59E7005EB587 /* ViewController.swift */,
+				49B40658222E59E7005EB587 /* Main.storyboard */,
+				49B4065B222E59E8005EB587 /* Assets.xcassets */,
+				49B4065D222E59E8005EB587 /* LaunchScreen.storyboard */,
+				49B40660222E59E8005EB587 /* Info.plist */,
+			);
+			path = SVGWithFloatBorder;
+			sourceTree = "<group>";
+		};
+		49B40668222E59E8005EB587 /* SVGWithFloatBorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				49B40669222E59E8005EB587 /* SVGWithFloatBorderTests.swift */,
+				49B4066B222E59E8005EB587 /* Info.plist */,
+			);
+			path = SVGWithFloatBorderTests;
+			sourceTree = "<group>";
+		};
 		49B8F16D222CDBEC00FE6177 = {
 			isa = PBXGroup;
 			children = (
 				49B8F178222CDBEC00FE6177 /* ResizeImage */,
 				49B8F18D222CDBEF00FE6177 /* ResizeImageTests */,
+				49B40653222E59E7005EB587 /* SVGWithFloatBorder */,
+				49B40668222E59E8005EB587 /* SVGWithFloatBorderTests */,
 				49B8F177222CDBEC00FE6177 /* Products */,
 				C5D34A49B6E7245BC2723557 /* Pods */,
 				A2B53227523D20980CBB724A /* Frameworks */,
@@ -86,6 +160,8 @@
 			children = (
 				49B8F176222CDBEC00FE6177 /* ResizeImage.app */,
 				49B8F18A222CDBEF00FE6177 /* ResizeImageTests.xctest */,
+				49B40652222E59E7005EB587 /* SVGWithFloatBorder.app */,
+				49B40665222E59E8005EB587 /* SVGWithFloatBorderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +203,8 @@
 			children = (
 				9F5DEFC5C3EA717AAE1FBEB8 /* Pods_ResizeImage.framework */,
 				91D6689EEED838DE74512006 /* Pods_ResizeImageTests.framework */,
+				4D18DAA8D8636E09B6B7A82C /* Pods_SVGWithFloatBorder.framework */,
+				14204633DC964ACEA6097517 /* Pods_SVGWithFloatBorderTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -138,6 +216,10 @@
 				AE61F1A021AF586749749787 /* Pods-ResizeImage.release.xcconfig */,
 				A41B3D8A6A0DBBC1334660E8 /* Pods-ResizeImageTests.debug.xcconfig */,
 				35C4C040E78E93782F2D73B7 /* Pods-ResizeImageTests.release.xcconfig */,
+				1308C62B950CAE0967AB0B8C /* Pods-SVGWithFloatBorder.debug.xcconfig */,
+				66FE05D59E796F63E3330EF0 /* Pods-SVGWithFloatBorder.release.xcconfig */,
+				576ED2ECE684C89A07EB1EB3 /* Pods-SVGWithFloatBorderTests.debug.xcconfig */,
+				A8B93FFDCFE5145AF74BD28E /* Pods-SVGWithFloatBorderTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -145,6 +227,44 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		49B40651222E59E7005EB587 /* SVGWithFloatBorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B40670222E59E8005EB587 /* Build configuration list for PBXNativeTarget "SVGWithFloatBorder" */;
+			buildPhases = (
+				B5C512541F25B7B91A58C626 /* [CP] Check Pods Manifest.lock */,
+				49B4064E222E59E7005EB587 /* Sources */,
+				49B4064F222E59E7005EB587 /* Frameworks */,
+				49B40650222E59E7005EB587 /* Resources */,
+				337CC41D766F7113872AEE98 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVGWithFloatBorder;
+			productName = SVGWithFloatBorder;
+			productReference = 49B40652222E59E7005EB587 /* SVGWithFloatBorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49B40664222E59E8005EB587 /* SVGWithFloatBorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B40671222E59E8005EB587 /* Build configuration list for PBXNativeTarget "SVGWithFloatBorderTests" */;
+			buildPhases = (
+				B73053071EDF2511052962E5 /* [CP] Check Pods Manifest.lock */,
+				49B40661222E59E8005EB587 /* Sources */,
+				49B40662222E59E8005EB587 /* Frameworks */,
+				49B40663222E59E8005EB587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49B40667222E59E8005EB587 /* PBXTargetDependency */,
+			);
+			name = SVGWithFloatBorderTests;
+			productName = SVGWithFloatBorderTests;
+			productReference = 49B40665222E59E8005EB587 /* SVGWithFloatBorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		49B8F175222CDBEC00FE6177 /* ResizeImage */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49B8F193222CDBEF00FE6177 /* Build configuration list for PBXNativeTarget "ResizeImage" */;
@@ -193,6 +313,13 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Andrew Romanov";
 				TargetAttributes = {
+					49B40651222E59E7005EB587 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					49B40664222E59E8005EB587 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 49B40651222E59E7005EB587;
+					};
 					49B8F175222CDBEC00FE6177 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -217,11 +344,31 @@
 			targets = (
 				49B8F175222CDBEC00FE6177 /* ResizeImage */,
 				49B8F189222CDBEF00FE6177 /* ResizeImageTests */,
+				49B40651222E59E7005EB587 /* SVGWithFloatBorder */,
+				49B40664222E59E8005EB587 /* SVGWithFloatBorderTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		49B40650222E59E7005EB587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B4065F222E59E8005EB587 /* LaunchScreen.storyboard in Resources */,
+				49B4065C222E59E8005EB587 /* Assets.xcassets in Resources */,
+				49B4065A222E59E7005EB587 /* Main.storyboard in Resources */,
+				49B40679222E700F005EB587 /* h.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B40663222E59E8005EB587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49B8F174222CDBEC00FE6177 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -263,6 +410,26 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ResizeImage/Pods-ResizeImage-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		337CC41D766F7113872AEE98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SVGWithFloatBorder/Pods-SVGWithFloatBorder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Macaw/Macaw.framework",
+				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Macaw.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SVGWithFloatBorder/Pods-SVGWithFloatBorder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5C958EC8963F99DBFF3B01D7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -275,6 +442,42 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ResizeImageTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5C512541F25B7B91A58C626 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SVGWithFloatBorder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B73053071EDF2511052962E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SVGWithFloatBorderTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -302,6 +505,23 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		49B4064E222E59E7005EB587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B40657222E59E7005EB587 /* ViewController.swift in Sources */,
+				49B40655222E59E7005EB587 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B40661222E59E8005EB587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B4066A222E59E8005EB587 /* SVGWithFloatBorderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49B8F172222CDBEC00FE6177 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -323,6 +543,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		49B40667222E59E8005EB587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49B40651222E59E7005EB587 /* SVGWithFloatBorder */;
+			targetProxy = 49B40666222E59E8005EB587 /* PBXContainerItemProxy */;
+		};
 		49B8F18C222CDBEF00FE6177 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 49B8F175222CDBEC00FE6177 /* ResizeImage */;
@@ -331,6 +556,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		49B40658222E59E7005EB587 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B40659222E59E7005EB587 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49B4065D222E59E8005EB587 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B4065E222E59E8005EB587 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		49B8F17D222CDBEC00FE6177 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -350,6 +591,88 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		49B4066C222E59E8005EB587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1308C62B950CAE0967AB0B8C /* Pods-SVGWithFloatBorder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25WDLLAK34;
+				INFOPLIST_FILE = SVGWithFloatBorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rav.SVGWithFloatBorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49B4066D222E59E8005EB587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66FE05D59E796F63E3330EF0 /* Pods-SVGWithFloatBorder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25WDLLAK34;
+				INFOPLIST_FILE = SVGWithFloatBorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rav.SVGWithFloatBorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49B4066E222E59E8005EB587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 576ED2ECE684C89A07EB1EB3 /* Pods-SVGWithFloatBorderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25WDLLAK34;
+				INFOPLIST_FILE = SVGWithFloatBorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rav.SVGWithFloatBorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SVGWithFloatBorder.app/SVGWithFloatBorder";
+			};
+			name = Debug;
+		};
+		49B4066F222E59E8005EB587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B93FFDCFE5145AF74BD28E /* Pods-SVGWithFloatBorderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25WDLLAK34;
+				INFOPLIST_FILE = SVGWithFloatBorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rav.SVGWithFloatBorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SVGWithFloatBorder.app/SVGWithFloatBorder";
+			};
+			name = Release;
+		};
 		49B8F191222CDBEF00FE6177 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -551,6 +874,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		49B40670222E59E8005EB587 /* Build configuration list for PBXNativeTarget "SVGWithFloatBorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B4066C222E59E8005EB587 /* Debug */,
+				49B4066D222E59E8005EB587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B40671222E59E8005EB587 /* Build configuration list for PBXNativeTarget "SVGWithFloatBorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B4066E222E59E8005EB587 /* Debug */,
+				49B4066F222E59E8005EB587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		49B8F171222CDBEC00FE6177 /* Build configuration list for PBXProject "ResizeImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
